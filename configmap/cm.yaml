@@ -1,0 +1,7 @@
+apiVersion: v1
+data:
+  channel.name: "Mangesh"
+  channel.owner: "test" 
+kind: ConfigMap
+metadata:
+  name: mycm-8

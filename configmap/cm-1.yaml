@@ -1,0 +1,8 @@
+apiVersion: v1
+data:
+  channel.name: mangesh
+  channel.owner: abnave
+  dabatase_IP: 192.168.195.100
+kind: ConfigMap
+metadata:
+  name: mycm-5

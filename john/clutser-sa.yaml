@@ -1,0 +1,13 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: newsa-role-bindings
+subjects:
+- kind: ServiceAccount 
+  name: newsa
+  apiGroup: ""
+  namespace: default
+roleRef:
+  kind: ClusterRole
+  name: superadmin
+  apiGroup: rbac.authorization.k8s.io
